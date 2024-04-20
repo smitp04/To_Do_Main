@@ -1,0 +1,52 @@
+
+.action_btn{
+    background-color:#fdce33;
+    border:2px solid #fdce34;
+    padding:10px 2rem;
+    font-size: 1.2rem;
+    border-radius:10px;
+    margin:2vh 2vw;
+    cursor: pointer; 
+    outline: none;
+}
+
+.action_btn:hover{
+    background-color:#fdde78;
+    border:2px solid #fac929;
+}
+
+.todo_inputs{
+    padding:0.5rem 1rem;
+    border:2px solid white;
+    border-radius: 8px;
+    margin:1rem 0px;
+    width: 40%;
+    min-width: 8rem;
+    align-self:flex-end;
+    outline: none;
+}
+
+.todo_inputs:hover{
+    border:2px solid #fac929;
+}
+
+.new-todo_inputs{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 5vw;
+    /* width: 70%; */
+
+}
+
+.todo_input_box label{
+    font-size:20px;
+}
+
+.todo_input_box{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+

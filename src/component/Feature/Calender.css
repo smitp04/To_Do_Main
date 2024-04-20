@@ -1,0 +1,25 @@
+.calender_page{
+    background-color:white;
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+.calender_page div{
+    text-align: center;
+    margin:2px;
+    flex:1 0 13%;                   /*this is awesome*/
+}
+
+.dead{
+    background-color:#fdfb94;
+}
+
+.btn,.dead_btn{
+    background:transparent;
+    border:none;
+    cursor: pointer;
+    width:100%;
+}

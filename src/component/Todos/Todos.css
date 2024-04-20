@@ -1,0 +1,16 @@
+.todos-main_container{
+    display:block;
+    width:20rem;
+    margin:8vh auto;
+    margin-bottom:30px;
+    padding:3vh 2vw;
+    background-color: rgb(245, 238, 146);
+    border-radius: 15px;
+}
+
+@media (max-width:500px)
+{
+    .todos-main_container{
+        width:90vw;
+    }
+}

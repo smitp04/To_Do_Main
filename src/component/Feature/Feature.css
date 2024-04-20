@@ -1,0 +1,31 @@
+.feature_container{
+   background-color:rgb(245, 238, 146);
+   width:50%;
+   min-width: 30rem;
+   margin:5px auto;
+   padding:0.8rem 0.6rem;
+   border-radius: 12px;
+   display:flex;
+   flex:1;
+}
+
+.left_container,.right_container{
+    flex:1;
+    border-radius:8px;
+    margin-right: 10px;
+    margin-bottom:1rem;
+}
+
+.right_container{
+    background-color:white;
+}
+
+@media (max-width:500px){
+    .feature_container{
+        flex-direction: column;
+        min-width:90vw;
+    }
+
+}
+
+

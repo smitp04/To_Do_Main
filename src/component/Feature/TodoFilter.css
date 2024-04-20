@@ -1,0 +1,22 @@
+.filter_container{
+    display:flex;
+    background-color: #f3c327;
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.filter_label{
+    font-size: 22px;
+    text-align: center;
+    margin:auto 10px;
+}
+
+.month_filer{
+    margin:1rem;
+}
+
+.month,.year{
+    padding:0.5rem;
+    margin:1vh 1vw;
+}

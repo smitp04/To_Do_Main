@@ -1,0 +1,20 @@
+.todo-deadline_date{
+    background-color:rgb(31, 30, 30);
+    color:white;
+    border-radius:10px;
+    margin:0px 5px;
+    padding:5px 2vw;
+}
+
+.todo-deadline_day{
+    font-size:28px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.todo-deadline_month,
+.todo-deadline_year{
+    text-align: center;
+    font-size:13px;
+}
+
